@@ -18,7 +18,7 @@
   <div class="ww-v2">
 
     <!-- HEADER -->
-    <header class="ww-v2-header">
+    <header class="ww-v2-header" id="siteHeader">
       <div class="ww-v2-logo">
         <a href="./index.html" aria-label="whitewillow home">
           <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/bf2b1a63ce322.png" alt="whitewillow">
@@ -27,24 +27,38 @@
 
       <nav class="ww-v2-nav" aria-label="Main navigation">
         <a href="#">Best</a>
-        <a href="./shop.html">Shop</a>
-        <a href="./promotion.html">Promotion</a>
-        <a href="./about.html">About Us</a>
-        <a href="./qna.html">Community</a>
+        <a href="#">Shop</a>
+        <a href="#">Promotion</a>
+        <a href="#">About Us</a>
+        <a href="#">Community</a>
       </nav>
 
       <div class="ww-v2-utils">
         <a href="#">Search</a>
-        <a href="./login.html">Account</a>
+        <a href="#">Account</a>
         <a href="#">Bag (0)</a>
+
+        <button class="ww-menu-btn" type="button" id="menuBtn" aria-label="Open menu">
+          <span></span>
+          <span></span>
+        </button>
       </div>
     </header>
+
+    <!-- MOBILE MENU -->
+    <div class="ww-mobile-menu" id="mobileMenu">
+      <a href="#">Best</a>
+      <a href="#">Shop</a>
+      <a href="#">Promotion</a>
+      <a href="#">About Us</a>
+      <a href="#">Community</a>
+    </div>
 
     <!-- HERO -->
     <section class="ww-v2-hero">
       <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/125e34ed36423.png" alt="whitewillow hero visual">
 
-      <div class="ww-v2-hero-copy">
+      <div class="ww-v2-hero-copy js-reveal">
         <p class="ww-v2-kicker">Quiet luxury select boutique</p>
 
         <h1 class="ww-v2-hero-title">
@@ -58,35 +72,35 @@
           오래 머무는 취향을 제안합니다.
         </p>
 
-        <a href="./shop.html" class="ww-v2-hero-link">Shop now</a>
+        <a href="#" class="ww-v2-hero-link">Shop now</a>
       </div>
     </section>
 
     <!-- CATEGORY -->
     <section class="ww-v2-category" aria-label="Shop by mood">
-      <a href="./shop.html" class="ww-v2-category-card">
+      <a href="#" class="ww-v2-category-card js-reveal">
         <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/b2e030452a5f9.png" alt="Soft shirts">
         <span class="ww-v2-category-name">Soft shirts</span>
       </a>
 
-      <a href="./shop.html" class="ww-v2-category-card">
+      <a href="#" class="ww-v2-category-card js-reveal">
         <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/2845ef0863dfa.png" alt="Quiet knitwear">
         <span class="ww-v2-category-name">Quiet knitwear</span>
       </a>
 
-      <a href="./shop.html" class="ww-v2-category-card">
+      <a href="#" class="ww-v2-category-card js-reveal">
         <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/d5629bc6ca9cd.png" alt="Daily accessories">
         <span class="ww-v2-category-name">Daily accessories</span>
       </a>
 
-      <a href="./shop.html" class="ww-v2-category-card">
+      <a href="#" class="ww-v2-category-card js-reveal">
         <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/7c70e80e7f31d.png" alt="Outerwear">
         <span class="ww-v2-category-name">Outerwear</span>
       </a>
     </section>
 
     <!-- STATEMENT -->
-    <section class="ww-v2-statement">
+    <section class="ww-v2-statement js-reveal">
       <h2>
         A wardrobe of<br>
         quiet elegance.
@@ -101,11 +115,11 @@
 
     <!-- EDITORIAL -->
     <section class="ww-v2-editorial">
-      <div class="ww-v2-editorial-image">
+      <div class="ww-v2-editorial-image js-reveal">
         <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/d7dc56c83d1c0.png" alt="whitewillow editorial visual">
       </div>
 
-      <div class="ww-v2-editorial-copy">
+      <div class="ww-v2-editorial-copy js-reveal">
         <div class="ww-v2-editorial-copy-inner">
           <p class="ww-v2-kicker">Whitewillow edit</p>
 
@@ -121,14 +135,14 @@
             섬세한 기준으로 선별합니다.
           </p>
 
-          <a href="./about.html" class="ww-v2-small-link">Read more</a>
+          <a href="#" class="ww-v2-small-link">Read more</a>
         </div>
       </div>
     </section>
 
     <!-- SHOP PREVIEW -->
     <section class="ww-v2-shop-preview">
-      <div class="ww-v2-section-head">
+      <div class="ww-v2-section-head js-reveal">
         <h2>New selection</h2>
 
         <p>
@@ -138,7 +152,7 @@
       </div>
 
       <div class="ww-v2-product-grid">
-        <a href="./product-detail.html" class="ww-v2-product-card">
+        <a href="#" class="ww-v2-product-card js-reveal">
           <div class="ww-v2-product-thumb">
             <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/1811bc44bda02.png" alt="Oversized Shirt">
           </div>
@@ -149,7 +163,7 @@
           </div>
         </a>
 
-        <a href="./product-detail.html" class="ww-v2-product-card">
+        <a href="#" class="ww-v2-product-card js-reveal">
           <div class="ww-v2-product-thumb">
             <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/c5d76a68b4081.jpg" alt="Comfort Set-up">
           </div>
@@ -160,7 +174,7 @@
           </div>
         </a>
 
-        <a href="./product-detail.html" class="ww-v2-product-card">
+        <a href="#" class="ww-v2-product-card js-reveal">
           <div class="ww-v2-product-thumb">
             <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/695d013c53c69.jpg" alt="Cashmere Knit">
           </div>
@@ -171,7 +185,7 @@
           </div>
         </a>
 
-        <a href="./product-detail.html" class="ww-v2-product-card">
+        <a href="#" class="ww-v2-product-card js-reveal">
           <div class="ww-v2-product-thumb">
             <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/d5afdd462b1ab.jpg" alt="Atelier Sunglass">
           </div>
@@ -186,12 +200,12 @@
 
     <!-- LOOKBOOK -->
     <section class="ww-v2-lookbook">
-      <div class="ww-v2-lookbook-title">
+      <div class="ww-v2-lookbook-title js-reveal">
         <h2>White moments</h2>
       </div>
 
       <div class="ww-v2-lookbook-grid">
-        <div>
+        <div class="js-reveal">
           <div class="ww-v2-lookbook-card">
             <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/8a98d68734e73.png" alt="A quiet texture">
           </div>
@@ -199,7 +213,7 @@
           <div class="ww-v2-lookbook-caption">A quiet texture</div>
         </div>
 
-        <div>
+        <div class="js-reveal">
           <div class="ww-v2-lookbook-card">
             <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/4c5db97808ea5.png" alt="Light on fabric">
           </div>
@@ -207,7 +221,7 @@
           <div class="ww-v2-lookbook-caption">Light on fabric</div>
         </div>
 
-        <div>
+        <div class="js-reveal">
           <div class="ww-v2-lookbook-card">
             <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/be1cb83071d3b.png" alt="Daily ritual">
           </div>
@@ -232,14 +246,16 @@
       </div>
 
       <nav class="ww-v2-footer-menu" aria-label="Footer navigation">
-        <a href="./index.html">Home</a>
-        <a href="./about.html">About</a>
-        <a href="./shop.html">Shop</a>
-        <a href="./promotion.html">Promotion</a>
-        <a href="./qna.html">Community</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Shop</a>
+        <a href="#">Promotion</a>
+        <a href="#">Community</a>
       </nav>
     </footer>
 
   </div>
+
+  <script src="./js/main.js"></script>
 </body>
 </html>
