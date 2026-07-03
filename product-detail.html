@@ -3,69 +3,236 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Product Detail | whitewillow</title>
+
+  <meta name="description" content="whitewillow product detail page." />
+  <meta property="og:title" content="whitewillow | Product Detail" />
+  <meta property="og:description" content="자연의 결을 닮은 정제된 아름다움과 오래 머무는 취향을 제안합니다." />
+  <meta property="og:type" content="website" />
+
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
   <div class="ww-v2">
+
+    <!-- HEADER -->
     <header class="ww-v2-header" id="siteHeader">
-      <div class="ww-v2-logo"><a href="./index.html"><img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/bf2b1a63ce322.png" alt="whitewillow"></a></div>
-      <nav class="ww-v2-nav"><a href="./best.html">Best</a><a href="./shop.html">Shop</a><a href="./promotion.html">Promotion</a><a href="./about.html">About Us</a><a href="./qna.html">Community</a></nav>
-      <div class="ww-v2-utils"><a href="#">Search</a><a href="./login.html">Account</a><a href="#">Bag (0)</a><button class="ww-menu-btn" type="button" id="menuBtn"><span></span><span></span></button></div>
+      <div class="ww-v2-logo">
+        <a href="./index.html" aria-label="whitewillow home">
+          <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/bf2b1a63ce322.png" alt="whitewillow">
+        </a>
+      </div>
+
+      <nav class="ww-v2-nav" aria-label="Main navigation">
+        <a href="./best.html">Best</a>
+        <a href="./shop.html">Shop</a>
+        <a href="./promotion.html">Promotion</a>
+        <a href="./about.html">About Us</a>
+        <a href="./qna.html">Community</a>
+      </nav>
+
+      <div class="ww-v2-utils">
+        <a href="#">Search</a>
+        <a href="./login.html">Account</a>
+        <a href="./cart.html">Bag (0)</a>
+
+        <button class="ww-menu-btn" type="button" id="menuBtn" aria-label="Open menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </header>
 
-    <div class="ww-mobile-menu" id="mobileMenu"><a href="./best.html">Best</a><a href="./shop.html">Shop</a><a href="./promotion.html">Promotion</a><a href="./about.html">About Us</a><a href="./qna.html">Community</a></div>
+    <!-- MOBILE MENU -->
+    <div class="ww-mobile-menu" id="mobileMenu">
+      <a href="./best.html">Best</a>
+      <a href="./shop.html">Shop</a>
+      <a href="./promotion.html">Promotion</a>
+      <a href="./about.html">About Us</a>
+      <a href="./qna.html">Community</a>
+    </div>
 
+    <!-- PRODUCT DETAIL -->
     <main class="ww-sub-main">
+
       <section class="ww-detail">
+
+        <!-- LEFT GALLERY -->
         <div class="ww-detail-gallery js-reveal">
-          <img class="ww-detail-main-img" src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/d5afdd462b1ab.jpg" alt="">
+          <img
+            class="ww-detail-main-img"
+            src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/d5afdd462b1ab.jpg"
+            alt="Atelier Sunglass main image"
+          >
+
           <div class="ww-detail-side-imgs">
-            <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/565570bca13d5.jpg" alt="">
-            <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/0999a696c6e3f.png" alt="">
+            <img
+              src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/565570bca13d5.jpg"
+              alt="Atelier Sunglass sub image"
+            >
+
+            <img
+              src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/0999a696c6e3f.png"
+              alt="Atelier Sunglass sub image"
+            >
           </div>
         </div>
 
+        <!-- RIGHT INFO -->
         <div class="ww-detail-info js-reveal">
           <p class="ww-sub-kicker">Whitewillow selection</p>
+
           <h1>Atelier Sunglass</h1>
+
           <p class="ww-detail-price">178,000</p>
 
           <p class="ww-detail-desc">
             차분한 실루엣과 은은한 분위기를 더하는 데일리 아이템입니다.
-            과하지 않은 형태감과 자연스러운 착용감을 중심으로 선별했습니다.
+            과하지 않은 형태감과 자연스러운 착용감을 중심으로 선별했으며,
+            일상 속 스타일에 조용한 포인트를 더합니다.
           </p>
 
           <div class="ww-detail-option">
-            <div class="ww-detail-option-row"><span>Color</span><span>Black</span></div>
-            <div class="ww-detail-option-row"><span>Size</span><span>Free</span></div>
-            <div class="ww-detail-option-row"><span>Delivery</span><span>3-5 business days</span></div>
+            <div class="ww-detail-option-row">
+              <span>Color</span>
+              <span>Black</span>
+            </div>
+
+            <div class="ww-detail-option-row">
+              <span>Size</span>
+              <span>Free</span>
+            </div>
+
+            <div class="ww-detail-option-row">
+              <span>Quantity</span>
+              <span>1</span>
+            </div>
+
+            <div class="ww-detail-option-row">
+              <span>Delivery</span>
+              <span>3-5 business days</span>
+            </div>
           </div>
 
           <div class="ww-detail-actions">
-            <a href="#">Buy now</a>
-            <a href="#">Add to bag</a>
+            <a href="./order.html">Buy now</a>
+            <a href="./cart.html">Add to bag</a>
           </div>
 
           <div class="ww-detail-tabs">
             <div class="ww-detail-tab">
               <h3>Product details</h3>
-              <p>제품 상세 이미지는 추후 실제 카페24 상세 영역에 맞춰 삽입됩니다. 현재 페이지는 전체 톤과 상품 상세 구조를 확인하기 위한 프로토타입입니다.</p>
+              <p>
+                제품 상세 이미지는 추후 실제 카페24 상세 영역에 맞춰 삽입됩니다.
+                현재 페이지는 전체 톤과 상품 상세 구조를 확인하기 위한 프로토타입입니다.
+              </p>
             </div>
+
+            <div class="ww-detail-tab">
+              <h3>Material & care</h3>
+              <p>
+                부드러운 사용감과 오래 착용할 수 있는 안정적인 형태감을 기준으로 구성했습니다.
+                직사광선과 고온 다습한 환경을 피해 보관해 주세요.
+              </p>
+            </div>
+
             <div class="ww-detail-tab">
               <h3>Shipping & returns</h3>
-              <p>배송 및 교환/반품 정책은 실제 운영 정책에 맞춰 최종 적용 예정입니다.</p>
+              <p>
+                배송 및 교환/반품 정책은 실제 운영 정책에 맞춰 최종 적용 예정입니다.
+                시안 단계에서는 페이지 흐름과 레이아웃 확인을 위한 안내 문구로 구성했습니다.
+              </p>
             </div>
           </div>
         </div>
+
       </section>
+
+      <!-- RELATED PRODUCTS -->
+      <section class="ww-v2-shop-preview">
+        <div class="ww-v2-section-head js-reveal">
+          <h2>You may also like</h2>
+
+          <p>
+            같은 무드로 함께 제안할 수 있는 whitewillow의 데일리 셀렉션입니다.
+            차분한 소재감과 자연스러운 실루엣을 중심으로 구성했습니다.
+          </p>
+        </div>
+
+        <div class="ww-v2-product-grid">
+          <a href="./product-detail.html" class="ww-v2-product-card js-reveal">
+            <div class="ww-v2-product-thumb">
+              <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/1811bc44bda02.png" alt="Oversized Shirt">
+            </div>
+
+            <div class="ww-v2-product-info">
+              <p class="ww-v2-product-name">Oversized Shirt</p>
+              <p class="ww-v2-product-price">138,000</p>
+            </div>
+          </a>
+
+          <a href="./product-detail.html" class="ww-v2-product-card js-reveal">
+            <div class="ww-v2-product-thumb">
+              <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/c5d76a68b4081.jpg" alt="Comfort Set-up">
+            </div>
+
+            <div class="ww-v2-product-info">
+              <p class="ww-v2-product-name">Comfort Set-up</p>
+              <p class="ww-v2-product-price">148,000</p>
+            </div>
+          </a>
+
+          <a href="./product-detail.html" class="ww-v2-product-card js-reveal">
+            <div class="ww-v2-product-thumb">
+              <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/695d013c53c69.jpg" alt="Cashmere Knit">
+            </div>
+
+            <div class="ww-v2-product-info">
+              <p class="ww-v2-product-name">Cashmere Knit</p>
+              <p class="ww-v2-product-price">390,000</p>
+            </div>
+          </a>
+
+          <a href="./product-detail.html" class="ww-v2-product-card js-reveal">
+            <div class="ww-v2-product-thumb">
+              <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/5773fb5e86438.jpg" alt="Daily Cardigan">
+            </div>
+
+            <div class="ww-v2-product-info">
+              <p class="ww-v2-product-name">Daily Cardigan</p>
+              <p class="ww-v2-product-price">128,000</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
     </main>
 
+    <!-- FOOTER -->
     <footer class="ww-v2-footer">
-      <div><div class="ww-v2-footer-logo"><img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/bf2b1a63ce322.png" alt="whitewillow"></div><p>당신의 시간에 고요한 빛을 더합니다. 자연의 결을 닮은 정제된 아름다움과 일상 속 품격 있는 순간을 제안합니다.</p></div>
-      <nav class="ww-v2-footer-menu"><a href="./index.html">Home</a><a href="./about.html">About</a><a href="./shop.html">Shop</a><a href="./promotion.html">Promotion</a><a href="./qna.html">Community</a></nav>
+      <div>
+        <div class="ww-v2-footer-logo">
+          <img src="https://cdn.imweb.me/upload/S2023030963558ef55ba8e/bf2b1a63ce322.png" alt="whitewillow">
+        </div>
+
+        <p>
+          당신의 시간에 고요한 빛을 더합니다.
+          자연의 결을 닮은 정제된 아름다움과
+          일상 속 품격 있는 순간을 제안합니다.
+        </p>
+      </div>
+
+      <nav class="ww-v2-footer-menu" aria-label="Footer navigation">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./shop.html">Shop</a>
+        <a href="./promotion.html">Promotion</a>
+        <a href="./qna.html">Community</a>
+      </nav>
     </footer>
+
   </div>
 
   <script src="./js/main.js"></script>
